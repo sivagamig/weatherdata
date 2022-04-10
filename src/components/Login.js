@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
     console.log(userName);
 
-    if (userName === "ipgautomative" && password === "carmaker") {
+    if (userName === "ipgautomotive" && password === "carmaker") {
 
       console.log('inside',userName);
       localStorage.setItem("userName",userName)
