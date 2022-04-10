@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       
-  <Router>
+  <Router basename={window.location.pathname || ''}>
         <Routes>
         <Route exact path="/" element={<Login/>}/> 
         <Route exact path="/home" element={<Home/>}/> 
